@@ -1,13 +1,12 @@
 cmake_minimum_required(VERSION 3.16) 
 
-project(gui)
+project(wsconfig-lib)
 
 # 生成unicode工程
 add_definitions(-DUNICODE -D_UNICODE)
 
 # 添加所有源文件
-aux_source_directory(${PROJECT_SOURCE_DIR}/src/ sourceList1)
-aux_source_directory(${PROJECT_SOURCE_DIR}/src/drawing sourceList2)
+aux_source_directory(${PROJECT_SOURCE_DIR}/src/ sourceList)
 
 # # 指定使用的头文件路径
 # INCLUDE_DIRECTORIES(${ROOT_PATH}/include/)
@@ -15,8 +14,8 @@ aux_source_directory(${PROJECT_SOURCE_DIR}/src/drawing sourceList2)
 # LINK_DIRECTORIES(${ROOT_PATH}/lib/)
 
 # 设置变量 
-SET(ALL_SRCS ${sourceList1} ${sourceList2}) 
-SET(ROOT_PATH ${PROJECT_SOURCE_DIR}/../../)
+SET(ALL_SRCS ${sourceList}) 
+SET(ROOT_PATH ${PROJECT_SOURCE_DIR}/../../thirdlib)
 
 # # 设置可执行文件输出路径
 # set(EXECUTABLE_OUTPUT_PATH ${ROOT_PATH}/bin)
@@ -41,8 +40,6 @@ ADD_LIBRARY(${PROJECT_NAME} STATIC ${ALL_SRCS})
 
 # target_include_directories(${PROJECT_NAME} PUBLIC ${ROOT_PATH}/include/)
 # target_link_libraries(${PROJECT_NAME} PUBLIC
-#   comctl32.lib
-#   # ${ROOT_PATH}/lib/*.lib
 #   ${ROOT_PATH}/lib/config-lib.lib
 #   ${ROOT_PATH}/lib/desktop-ipc.lib
 #   ${ROOT_PATH}/lib/desktop.lib
@@ -50,7 +47,7 @@ ADD_LIBRARY(${PROJECT_NAME} STATIC ${ALL_SRCS})
 #   ${ROOT_PATH}/lib/file-lib.lib
 #   ${ROOT_PATH}/lib/ft-common.lib
 #   ${ROOT_PATH}/lib/ft-server-lib.lib
-#   ${ROOT_PATH}/lib/wsconfig-lib.lib
+#   ${ROOT_PATH}/lib/gui.lib
 #   ${ROOT_PATH}/lib/http-server-lib.lib
 #   ${ROOT_PATH}/lib/io-lib.lib
 #   ${ROOT_PATH}/lib/libjpeg.lib
