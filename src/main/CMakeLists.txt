@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.16) 
 
-project(DatagrandVNC)
+project(VNCRemote)
 
 # 添加所有源文件
 SET(MAIN_PATH ${PROJECT_SOURCE_DIR}/)
@@ -20,7 +20,7 @@ set(CMAKE_RUNTIME_OUTPUT_DIRECTORY_RELEASE ${PROJECT_SOURCE_DIR}/bin/Release)
 # MFC设置
 add_definitions(-D_AFXDLL)
 set(CMAKE_MFC_FLAG 2)
-set(MY_VERSIONINFO_RC "${MAIN_PATH}/DatagrandVNC.rc")
+set(MY_VERSIONINFO_RC "${MAIN_PATH}/VNCRemote.rc")
 
 ADD_EXECUTABLE(${PROJECT_NAME} WIN32 ${ALL_SRCS} ${MY_VERSIONINFO_RC})
 

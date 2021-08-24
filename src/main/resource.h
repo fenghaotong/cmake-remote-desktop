@@ -1,6 +1,6 @@
 //{{NO_DEPENDENCIES}}
-// Microsoft Visual C++ Éú³ÉµÄ°üº¬ÎÄ¼þ¡£
-// ¹© DatagrandVNC.rc Ê¹ÓÃ
+// Microsoft Visual C++ ï¿½ï¿½ï¿½ÉµÄ°ï¿½ï¿½ï¿½ï¿½Ä¼ï¿½ï¿½ï¿½
+// ï¿½ï¿½ VNCRemote.rc Ê¹ï¿½ï¿½
 //
 #define IDD_CONFIG_ADMINISTRATION_PAGE  102
 #define IDD_CONFIG_SERVER_PAGE          103

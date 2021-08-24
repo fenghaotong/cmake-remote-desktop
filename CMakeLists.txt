@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.16) 
 
-project(DatagrandVNC)
+project(VNCRemote)
 
 # 生成unicode工程
 add_definitions(-DUNICODE -D_UNICODE)
