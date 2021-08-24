@@ -4,8 +4,7 @@
 # cmake generate
 build
 build32
-bin
-Debug
-Release
+# bin
 
 *.pdb
+*.exe

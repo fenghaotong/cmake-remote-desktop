@@ -194,7 +194,7 @@ INT_PTR CALLBACK BaseDialog::dialogProc(HWND hwnd, UINT uMsg, WPARAM wParam, LPA
   switch (uMsg) {
   case WM_INITDIALOG:
     bResult = _this->onInitDialog();
-    // _this->onCommand(controlID, controlID);
+    _this->onCommand(controlID, controlID);
     break;
   case WM_NOTIFY:
     bResult = _this->onNotify(LOWORD(wParam), lParam);

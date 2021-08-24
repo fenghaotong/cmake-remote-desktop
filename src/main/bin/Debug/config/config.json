@@ -1,0 +1,37 @@
+{
+	"Server":{
+		"RfbPort":"5901",
+		"HttpPort":"5800",
+		"PollingInterval":"1000",
+		"EnableFileTransfers":"true",
+		"EnableRemovingDesktopWallpaper":"true",
+		"AcceptRfbConnections":"true",
+		"AcceptHttpConnections":"true",
+		"UseAuthentication":"true",
+		"PrimaryPassword":"root1",
+		"ViewOnlyPassword":"poc",
+		"LocalInputPriority":"false",
+		"InactivityTimeout":"3",
+		"BlockLocalInput":"false",
+		"BlockRemoteInput":"0",
+		"MirrorAllowing":"false",
+		"D3DAllowing":"false",
+		"ShowTrayIconFlag":"false"
+	},
+	"Vncontrol": {
+		"Host":"0.0.0.0",
+		"Port":30007
+	},
+	"ConnectSetting": {
+		"Path": "vnc",
+		"AutoConnect": "true",
+		"Resize": "scale",
+		"Reconnect": "true",
+		"ShowDot": "true",
+		"Quality": "9",
+		"Compression": "9",
+		"Shared": "true",
+		"ViewOnly": "false"
+	},
+	"Https": "false"
+}

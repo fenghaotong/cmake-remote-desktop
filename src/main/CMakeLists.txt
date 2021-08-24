@@ -26,35 +26,34 @@ ADD_EXECUTABLE(${PROJECT_NAME} WIN32 ${ALL_SRCS} ${MY_VERSIONINFO_RC})
 
 # 添加依赖
 add_dependencies(${PROJECT_NAME} 
-  config-lib
-  desktop
-  desktop-ipc
-  fb-update-sender
-  file-lib
-  ft-common
-  ft-server-lib
   gui
-  http-server-lib
-  io-lib
-  libjpeg
-  log-server
-  log-writer
-  
-  region
-  rfb
-  rfb-sconn
-  screen-hooks
-  server-config-lib
-  tcp-dispatcher
-  thread
-  tvncontrol-app
+  wsconfig-lib
+  # config-lib
+  # desktop
+  # desktop-ipc
+  # fb-update-sender
+  # file-lib
+  # ft-common
+  # ft-server-lib
+  # http-server-lib
+  # io-lib
+  # libjpeg
+  # log-server
+  # log-writer
+  # region
+  # rfb
+  # rfb-sconn
+  # screen-hooks
+  # server-config-lib
+  # tcp-dispatcher
+  # thread
+  # tvncontrol-app
+  # zlib
   # network
   # tvnserver-app
   # win-event-log
   # util
   # win-system
-  wsconfig-lib
-  zlib
 )
 
 # 设置子系统
