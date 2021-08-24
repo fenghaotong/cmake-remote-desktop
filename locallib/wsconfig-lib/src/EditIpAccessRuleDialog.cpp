@@ -22,7 +22,7 @@
 //-------------------------------------------------------------------------
 //
 
-#include "vnserver/resource.h"
+#include "tvnserver/resource.h"
 #include "EditIpAccessRuleDialog.h"
 #include "util/StringParser.h"
 #include "util/AnsiStringStorage.h"

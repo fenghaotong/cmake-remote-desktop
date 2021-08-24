@@ -22,7 +22,7 @@
 //-------------------------------------------------------------------------
 //
 
-#include "vnserver/resource.h"
+#include "tvnserver/resource.h"
 #include "VideoRegionsConfigDialog.h"
 #include "ConfigDialog.h"
 #include "UIDataAccess.h"

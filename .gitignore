@@ -7,3 +7,5 @@ build32
 bin
 Debug
 Release
+
+*.pdb

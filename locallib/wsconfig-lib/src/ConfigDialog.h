@@ -41,7 +41,7 @@
 #include "IpAccessControlDialog.h"
 #include "VideoRegionsConfigDialog.h"
 
-#include "vncontrol-app/ControlCommand.h"
+#include "tvncontrol-app/ControlCommand.h"
 
 class ConfigDialog : public BaseDialog
 {

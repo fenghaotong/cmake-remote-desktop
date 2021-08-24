@@ -23,7 +23,7 @@
 //
 #include <iostream>
 #include "ChangePasswordDialog.h"
-#include "vnserver/resource.h"
+#include "tvnserver/resource.h"
 
 #include "server-config-lib/ServerConfig.h"
 

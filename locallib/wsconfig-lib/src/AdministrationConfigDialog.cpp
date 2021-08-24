@@ -1,5 +1,5 @@
 
-#include "vnserver/resource.h"
+#include "tvnserver/resource.h"
 #include "AdministrationConfigDialog.h"
 #include "CommonInputValidation.h"
 #include "UIDataAccess.h"
@@ -12,7 +12,7 @@
 #include "ChangePasswordDialog.h"
 #include "util/StringTable.h"
 #include "win-system/Process.h"
-#include "vnserver-app/NamingDefs.h"
+#include "tvnserver-app/NamingDefs.h"
 
 AdministrationConfigDialog::AdministrationConfigDialog()
 : BaseDialog(IDD_CONFIG_ADMINISTRATION_PAGE), m_parentDialog(NULL)

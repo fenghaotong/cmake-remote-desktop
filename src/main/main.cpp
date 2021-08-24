@@ -4,24 +4,24 @@
 #include "util/CommandLine.h"
 #include "win-system/WinCommandLineArgs.h"
 
-#include "vnserver-app/TvnService.h"
-#include "vnserver-app/TvnServerApplication.h"
-#include "vnserver-app/QueryConnectionApplication.h"
-#include "vnserver-app/DesktopServerApplication.h"
-#include "vnserver-app/AdditionalActionApplication.h"
-#include "vnserver-app/ServiceControlApplication.h"
-#include "vnserver-app/ServiceControlCommandLine.h"
-#include "vnserver-app/QueryConnectionCommandLine.h"
-#include "vnserver-app/DesktopServerCommandLine.h"
+#include "tvnserver-app/TvnService.h"
+#include "tvnserver-app/TvnServerApplication.h"
+#include "tvnserver-app/QueryConnectionApplication.h"
+#include "tvnserver-app/DesktopServerApplication.h"
+#include "tvnserver-app/AdditionalActionApplication.h"
+#include "tvnserver-app/ServiceControlApplication.h"
+#include "tvnserver-app/ServiceControlCommandLine.h"
+#include "tvnserver-app/QueryConnectionCommandLine.h"
+#include "tvnserver-app/DesktopServerCommandLine.h"
 
-#include "vncontrol-app/ControlApplication.h"
-#include "vncontrol-app/ControlCommandLine.h"
+#include "tvncontrol-app/ControlApplication.h"
+#include "tvncontrol-app/ControlCommandLine.h"
 
-#include "vnserver/resource.h"
-#include "vnserver-app/CrashHook.h"
-#include "vnserver-app/NamingDefs.h"
+#include "resource.h"
+#include "tvnserver-app/CrashHook.h"
+#include "tvnserver-app/NamingDefs.h"
 
-#include "vnserver-app/WinEventLogWriter.h"
+#include "tvnserver-app/WinEventLogWriter.h"
 
 int APIENTRY _tWinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance,
     LPTSTR lpCmdLine, int nCmdShow)

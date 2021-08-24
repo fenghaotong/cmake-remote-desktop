@@ -22,7 +22,7 @@
 //-------------------------------------------------------------------------
 //
 
-#include "vnserver/resource.h"
+#include "tvnserver/resource.h"
 #include "EditPortMappingDialog.h"
 
 #include "util/StringParser.h"

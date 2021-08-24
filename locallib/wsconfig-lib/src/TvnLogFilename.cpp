@@ -27,7 +27,7 @@
 #include "file-lib/File.h"
 
 #include "win-system/Environment.h"
-#include "vnserver-app/NamingDefs.h"
+#include "tvnserver-app/NamingDefs.h"
 
 TvnLogFilename::TvnLogFilename()
 {

@@ -22,7 +22,7 @@
 //-------------------------------------------------------------------------
 //
 
-#include "vnserver/resource.h"
+#include "tvnserver/resource.h"
 #include "IpAccessControlDialog.h"
 #include "ConfigDialog.h"
 #include "CommonInputValidation.h"

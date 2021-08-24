@@ -25,7 +25,7 @@
 #include "PortMappingDialog.h"
 #include "EditPortMappingDialog.h"
 #include "ConfigDialog.h"
-#include "vnserver/resource.h"
+#include "tvnserver/resource.h"
 
 PortMappingDialog::PortMappingDialog()
 : BaseDialog(IDD_CONFIG_PORT_MAPPING_PAGE), m_parent(NULL)

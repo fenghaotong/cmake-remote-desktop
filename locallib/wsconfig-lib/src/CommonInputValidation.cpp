@@ -28,7 +28,7 @@
 
 #include "gui/BalloonTip.h"
 
-#include "vnserver/resource.h"
+#include "tvnserver/resource.h"
 
 #include "UIDataAccess.h"
 

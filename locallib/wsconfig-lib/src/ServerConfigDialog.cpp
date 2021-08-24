@@ -22,7 +22,7 @@
 //-------------------------------------------------------------------------
 //
 
-#include "vnserver/resource.h"
+#include "tvnserver/resource.h"
 #include "ServerConfigDialog.h"
 #include "ConfigDialog.h"
 #include "ChangePasswordDialog.h"

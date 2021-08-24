@@ -8,7 +8,7 @@
 
 #include "ChangePasswordDialog.h"
 
-#include "vnserver/resource.h"
+#include "tvnserver/resource.h"
 
 using namespace std;
 
@@ -89,13 +89,13 @@ const char *PasswordControl::getCryptedPassword() const
 
 bool PasswordControl::showChangePasswordModalDialog(Control *parent)
 {
-  // ³õÊ¼»¯ÉèÖÃÃÜÂëµÄDialog
+  // ï¿½ï¿½Ê¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Dialog
   ChangePasswordDialog changePasswordDialog(parent, !hasPassword());
 
   if (changePasswordDialog.showModal() != IDOK) {
     return false;
   }
-  // »ñÈ¡´ÓDialogµÃµ½µÄÃÜÂë£¬ÉèÖÃÃÜÂë
+  // ï¿½ï¿½È¡ï¿½ï¿½Dialogï¿½Ãµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ë£¬ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
   setPassword(changePasswordDialog.getPasswordInPlainText());
   return true;
 }

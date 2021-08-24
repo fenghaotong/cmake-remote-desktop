@@ -23,7 +23,7 @@
 //
 
 #include "ConfigDialog.h"
-#include "vnserver/resource.h"
+#include "tvnserver/resource.h"
 #include "util/CommonHeader.h"
 
 ConfigDialog::ConfigDialog(bool forService, ControlCommand *reloadConfigCommand)
@@ -166,7 +166,7 @@ BOOL ConfigDialog::onInitDialog()
   m_videoRegionsConfigDialog.create();
   moveDialogToTabControl(&m_videoRegionsConfigDialog);
 
-  // Ìí¼ÓtabÒ³
+  // ï¿½ï¿½ï¿½ï¿½tabÒ³
   m_tabControl.addTab(&m_serverConfigDialog, StringTable::getString(IDS_SERVER_TAB_CAPTION));
   // m_tabControl.addTab(&m_portMappingDialog, StringTable::getString(IDS_EXTRA_PORTS_TAB_CAPTION));
   // m_tabControl.addTab(&m_ipAccessControlDialog, StringTable::getString(IDS_ACCESS_CONTROL_TAB_CAPTION));
@@ -240,7 +240,7 @@ void ConfigDialog::onApplyButtonClick()
                  MB_OK | MB_ICONERROR);
     } else {
       m_ctrlApplyButton.setEnabled(false);
-      // ÌáÊ¾¿ò£¬ÖØÆôVNCÉúÐ§
+      // ï¿½ï¿½Ê¾ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½VNCï¿½ï¿½Ð§
       /*MessageBox(m_ctrlThis.getWindow(),
         StringTable::getString(IDS_OFFLINE_CONFIG_SAVE_NOTIFICATION),
         StringTable::getString(IDS_MBC_TVNCONTROL),
